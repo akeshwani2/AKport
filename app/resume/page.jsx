@@ -52,36 +52,6 @@ const experience = {
       duration: "2024",
     },
     {
-      company: "Goldman Sachs",
-      position: "Software Engineer Virtual Internship",
-      duration: "2024",
-    },
-    {
-      company: "Amazon",
-      position: "AWS Solutions Architect",
-      duration: "2024",
-    },
-    {
-      company: "Verizon",
-      position: "Cloud Platform Virtual Internship",
-      duration: "2024",
-    },
-    {
-      company: "Mastercard",
-      position: "Cybersecurity Virtual Internship",
-      duration: "2024",
-    },
-    {
-      company: "Wells Fargo",
-      position: "Software Engineer Virtual Internship",
-      duration: "2024",
-    },
-    {
-      company: "Lyft",
-      position: "Back-End Engineer Virtual Internship",
-      duration: "2024",
-    },
-    {
       company: "Moneta",
       position: "Founder & Full Stack Developer",
       duration: "2023 - 2024",
@@ -109,7 +79,7 @@ const education = {
     {
       institution: "Georgia State University",
       degree: "Majoring in Computer Science",
-      duration: "2022 - 2026",
+      duration: "2023 - 2027",
     },
   ],
 };
@@ -177,16 +147,6 @@ const certificates = {
   title: "My Certificates and Licenses",
   description: "I have completed a variety of certificates that have helped me enhance and better my software engineering and cybersecurity skills.",
   items: [
-    {
-      company: "J.P. Morgan Chase & Co.",
-      position: "Virtual Software Engineer",
-      jpmorg: "View",
-    },
-    {
-      company: "J.P. Morgan Chase & Co.",
-      position: "Agile Certified",
-      jpmorgagile: "View",
-    },
     {
       company: "Accenture",
       position: "Coding Development and Advanced Engineer",
