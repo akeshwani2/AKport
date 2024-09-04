@@ -5,7 +5,7 @@ import emailjs from '@emailjs/browser';
 import { Textarea } from "@/components/ui/textarea";
 import { Select, SelectContent, SelectGroup, SelectItem, SelectLabel, SelectTrigger, SelectValue, } from "@/components/ui/select"
 import { useEffect } from "react";
-import { FaPhoneAlt, FaEnvelope, FaMapMarkerAlt } from "react-icons/fa"
+import { FaEnvelope, FaMapMarkerAlt } from "react-icons/fa"
 
 
 const info = [
@@ -27,7 +27,7 @@ import { motion } from "framer-motion";
 const Contact = () => {
 
   useEffect(() => {
-    emailjs.init('n8NDrUx40HzYFneGm'); // Initialize EmailJS with your public key
+    emailjs.init('n8NDrUx40HzYFneGm'); // Initialize EmailJS with my public key
   }, []);
 
   // Function to handle the form submission
