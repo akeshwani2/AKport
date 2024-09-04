@@ -56,8 +56,10 @@ const Contact = () => {
             </p>
             {/* input */}
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-              <Input type="name" name="name" placeholder="Name"/>
-              <Input type="email" name="email" placeholder="Email Address"/>
+              <Input type="first" required name="name" placeholder="First Name" />
+              <Input type="last" required name="name" placeholder="Last Name"/>
+              <Input type="email" required name="email" placeholder="Email Address"/>
+              <Input type="phone" name="phone" placeholder="Phone Number"/>
             </div>
             {/* select */}
             <Select>
@@ -74,7 +76,7 @@ const Contact = () => {
               </SelectContent>
             </Select>
             {/* textarea */}
-            <Textarea className="h-[200px]" name="message" placeholder="Type your message here"/>
+            <Textarea className="h-[200px]" name="message" required placeholder="Type your message here"/>
             {/* btn */}
             <Button size="md" className="max-w-40" type="submit">Send Message</Button>
           </form>
