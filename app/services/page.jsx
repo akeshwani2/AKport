@@ -8,13 +8,13 @@ const services = [
     num: "01",
     title: "CNN for Brain Tumor Detection",
     description: "This project uses convolutional neural networks (CNNs) to detect and segment brain tumors through MRI scans using deep learning techniques.",
-    href: "https://ak-cnn.vercel.app/", target: "_blank"
+    href: "https://ak-cnn.vercel.app/"
   },
   {
     num: "02",
-    title: "Smart Contract Auditor",
+    title: "Breast Cancer Prediction Model",
     description: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. esse voluptatum.",
-    href: ""
+    href: "https://docs.google.com/document/d/1ZnOqoBX--tSGoFDoJ93XW3hpVt0krFvL7_lmujfNcQA/edit?usp=sharing"
   },
   {
     num: "03",
