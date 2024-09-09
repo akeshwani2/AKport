@@ -6,13 +6,13 @@ import Link from "next/link";
 const services = [
   {
     num: "01",
-    title: "Web Development",
-    description: "A portfolio that I designed.",
-    href: "https://arhaankeshwaniportfolio.netlify.app/",
+    title: "CNN for Brain Tumor Detection",
+    description: "This project uses convolutional neural networks (CNNs) to detect and segment brain tumors through MRI scans using deep learning techniques.",
+    href: "https://ak-cnn.vercel.app/", target: "_blank"
   },
   {
     num: "02",
-    title: "iOS App Development",
+    title: "Smart Contract Auditor",
     description: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. esse voluptatum.",
     href: ""
   },
@@ -49,10 +49,11 @@ const Services = () => {
                 <div className="text-8xl font-extrabold text-outline text-transparent group-hover:text-outline-hover
                 transition-all duration-500">{service.num}</div>
                 {/* rounded or not is here 'rounded-full' -> */}
-                <Link href={service.href} className="w-[60px] h-[60px] bg-white group-hover:bg-accent transition-all duration-500 flex 
-                justify-center items-center hover:-rotate-45"
-                >
-                  <BsArrowDownRight className="text-primary text-3xl"/>
+                <Link href={service.href} passHref legacyBehavior>
+                  <a target="_blank" rel="noopener noreferrer" className="w-[60px] h-[60px] bg-white group-hover:bg-accent transition-all duration-500 flex 
+                  justify-center items-center hover:-rotate-45">
+                    <BsArrowDownRight className="text-primary text-3xl"/>
+                  </a>
                 </Link>
               </div>
               {/* title */}
