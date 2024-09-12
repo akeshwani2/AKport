@@ -17,11 +17,6 @@ const about = {
 
     },
     {
-      fieldName: "Nationality",
-      fieldValue: "American"
-
-    },
-    {
       fieldName: "Email",
       fieldValue: "akeshwanibusiness@gmail.com"
 
@@ -44,11 +39,6 @@ const experience = {
     {
       company: "J.P. Morgan Chase & Co.",
       position: "Software Engineer Virtual Internship",
-      duration: "2024",
-    },
-    {
-      company: "J.P. Morgan Chase & Co.",
-      position: "Agile Virtual Internship",
       duration: "2024",
     },
     {
