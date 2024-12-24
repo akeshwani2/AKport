@@ -12,7 +12,7 @@ const info = [
   {
     icon: <FaEnvelope />,
     title: "Email",
-    description: "akeshwanibusiness@gmail.com",
+    description: "ak@lyra.services",
   },
   {
     icon: <FaMapMarkerAlt />,
@@ -34,7 +34,7 @@ const Contact = () => {
   const sendEmail = (e) => {
     e.preventDefault();
 
-    emailjs.sendForm('service_y6zo5hd', 'template_g1pvj22', e.target, 'n8NDrUx40HzYFneGm')
+    emailjs.sendForm('service_chxi88h', 'template_g1pvj22', e.target, 'n8NDrUx40HzYFneGm')
       .then((result) => {
         console.log(result.text);
         alert('Message sent successfully!');

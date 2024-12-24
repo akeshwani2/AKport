@@ -2,7 +2,7 @@ import Photo from "@/components/Photo";
 import Social from "@/components/Social";
 import Stats from "@/components/Stats";
 import { Button } from "@/components/ui/button";
-import { FiDownload } from "react-icons/fi"
+import { ArrowUpRight } from "lucide-react";
 const Home = () => {
   return (
     <section className="h-full">
@@ -10,7 +10,7 @@ const Home = () => {
         <div className="flex flex-col xl:flex-row items-center justify-between xl:pt-8 xl:pb-24">
           {/* text */}          
           <div className="text-center xl:text-left order-2 xl:order-none">
-            <span className="text-xl">Full Stack SWE | Cybersecurity Enthusiast</span>
+            <span className="text-xl">Founder/CEO @ Lyra | Prev SWE @ JPMC</span>
             <h1 className="h1 mb-6">
               Hello, I'm <br />  <span className="text-accent">Arhaan Keshwani</span>
             </h1>
@@ -20,10 +20,10 @@ const Home = () => {
             </p>
             {/* btn and socials*/}
             <div className="flex flex-col xl:flex-row items items-center gap-8">
-            <a href="https://drive.google.com/file/d/1-dJN7iFMiB1TDyrHTrmR_3S09LjfXXch/view?usp=sharing" target="_blank">
+            <a href="https://drive.google.com/file/d/1l0VR7VKVtGSflPz-M5kG--EgAEg4b9IF/view?usp=sharing" target="_blank">
               <Button variant="outline" size="lg" className="uppercase flex items-center gap-2">
-                <p>Download CV</p>
-                <FiDownload className="text-xl"/>
+                <p>View Resume</p>
+                <ArrowUpRight className="text-xl"/>
               </Button>
               </a>
               <div className="mb-8 xl:mb-0">

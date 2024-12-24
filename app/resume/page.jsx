@@ -9,7 +9,7 @@ import Link from "next/link";
 
 const about = {
   title: "About me",
-  description: "Hi, I'm Arhaan Keshwani, a computer science student from Atlanta, Georgia, with a strong passion for cybersecurity and app development. Specializing in cybersecurity, I frequently utilize Kali Linux to explore and address various security challenges. I am also skilled in developing sleek and functional iOS applications using Swift. My goal is to create innovative solutions that enhance digital experiences while ensuring robust security.",
+  description: "Hi, I'm Arhaan Keshwani, a computer science student from Atlanta, Georgia. I developed Lyra, a productivity and automation platform that secured $5,000 in funding and attracted 100+ active users within its first month.",
   info: [
     {
       fieldName: "Experience",
@@ -18,7 +18,7 @@ const about = {
     },
     {
       fieldName: "Email",
-      fieldValue: "akeshwanibusiness@gmail.com"
+      fieldValue: "ak@lyra.services"
 
     },
   ]
@@ -32,25 +32,31 @@ const experience = {
   description: "I have been a part of numerous projects, gaining extensive experience in full stack software engineering and cybersecurity.",
   items: [
     {
-      company: "Roast",
-      position: "Full Stack Software Developer",
-      duration: "2024 - Present",      
+      company: "Lyra",
+      position: "Founder/CEO & Lead Developer",
+      duration: "Nov 2024 - Present",      
+    },
+    {
+      company: "Cita Marketplace",
+      position: "Software Engineer Internship",
+      duration: "Sep 2024 - Oct 2024",
+    },
+    {
+      company: "Georgia Tech",
+      position: "Cybersecurity Cup - Deloitte Partnership",
+      duration: "Sep 2024",
     },
     {
       company: "J.P. Morgan Chase & Co.",
-      position: "Software Engineer Virtual Internship",
-      duration: "2024",
+      position: "Virtual Software Engineer Internship",
+      duration: "Jul 2024 - Aug 2024",
     },
     {
-      company: "Moneta",
-      position: "Founder & Full Stack Developer",
-      duration: "2023 - 2024",
+      company: "Roast",
+      position: "Lead Software Developer",
+      duration: "Mar 2024 - Jul 2024",
     },
-    {
-      company: "National Cyber League",
-      position: "Globally Top Ranked Member",
-      duration: "2024",
-    },
+
   ],
 };
 
@@ -62,15 +68,15 @@ const education = {
   description: "I am currently a Computer Science student with interest in Cybersecurity",
   items: [
     {
-      institution: "CodePath Cybersecurity Program",
-      degree: "Intermediate Cybersecurity",
-      duration: "Sep 2024",
-    },
-    {
       institution: "Georgia State University",
       degree: "Majoring in Computer Science",
       duration: "2023 - 2027",
     },
+    {
+      institution: "CodePath",
+      degree: "Intermediate Cybersecurity",
+      duration: "Sep 2024 - Dec 2024",
+    }
   ],
 };
 
@@ -78,7 +84,7 @@ const education = {
 
 const skills = {
   title: "My Skills",
-  description: "I have a solid foundation in a variety of programming languages",
+  description: "I possess comprehensive expertise across multiple programming languages and development frameworks.",
   skillList: [
     {
       icon: <FaHtml5 />,
@@ -133,57 +139,57 @@ const skills = {
 
 // Certificates
 
-const certificates = {
-  title: "My Certificates and Licenses",
-  description: "I have completed a variety of certificates that have helped me enhance and better my software engineering and cybersecurity skills.",
-  items: [
-    {
-      company: "Accenture",
-      position: "Coding Development and Advanced Engineer",
-      accenture: "View",
-    },
-    {
-      company: "Goldman Sachs",
-      position: "Virtual Software Engineer",
-      goldman: "View",
-    },
-    {
-      company: "Amazon",
-      position: "AWS Solutions Architect",
-      amazon: "View",
-    },
-    {
-      company: "Verizon",
-      position: "Virtual Cloud Platform Engineer",
-      verizon: "View",
-    },
-    {
-      company: "Mastercard",
-      position: "Virtual Cybersecurity Intern",
-      mastercard: "View",
-    },
-    {
-      company: "PepsiCo",
-      position: "Advanced Virtual Software Engineer",
-      pepsi: "View",
-    },
-    {
-      company: "Wells Fargo",
-      position: "Virtual Software Engineer",
-      wellsfargo: "View",
-    },
-    {
-      company: "Lyft",
-      position: "Virtual Back-End Engineer",
-      lyft: "View"
-    },
-    {
-      company: "National Cyber League",
-      position: "Globally Top Ranked Member",
-      ncl: "View"
-    },
-  ]
-}
+// const certificates = {
+//   title: "My Certificates and Licenses",
+//   description: "I have completed a variety of certificates that have helped me enhance and better my software engineering and cybersecurity skills.",
+//   items: [
+//     {
+//       company: "Accenture",
+//       position: "Coding Development and Advanced Engineer",
+//       accenture: "View",
+//     },
+//     {
+//       company: "Goldman Sachs",
+//       position: "Virtual Software Engineer",
+//       goldman: "View",
+//     },
+//     {
+//       company: "Amazon",
+//       position: "AWS Solutions Architect",
+//       amazon: "View",
+//     },
+//     {
+//       company: "Verizon",
+//       position: "Virtual Cloud Platform Engineer",
+//       verizon: "View",
+//     },
+//     {
+//       company: "Mastercard",
+//       position: "Virtual Cybersecurity Intern",
+//       mastercard: "View",
+//     },
+//     {
+//       company: "PepsiCo",
+//       position: "Advanced Virtual Software Engineer",
+//       pepsi: "View",
+//     },
+//     {
+//       company: "Wells Fargo",
+//       position: "Virtual Software Engineer",
+//       wellsfargo: "View",
+//     },
+//     {
+//       company: "Lyft",
+//       position: "Virtual Back-End Engineer",
+//       lyft: "View"
+//     },
+//     {
+//       company: "National Cyber League",
+//       position: "Globally Top Ranked Member",
+//       ncl: "View"
+//     },
+//   ]
+// }
 
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 
@@ -213,7 +219,7 @@ const Resume = () => {
           <TabsTrigger value="experience">Experience</TabsTrigger>
           <TabsTrigger value="skills">Skills</TabsTrigger>
           <TabsTrigger value="education">Education</TabsTrigger>
-          <TabsTrigger value="certificates">Certificates</TabsTrigger>
+          {/* <TabsTrigger value="certificates">Certificates</TabsTrigger> */}
         </TabsList>
 
         {/* content */}
@@ -307,8 +313,8 @@ const Resume = () => {
             </div>
           </TabsContent>
           {/* certificates */}
-          <TabsContent value="certificates" className="w-full ">
-            <div className="flex flex-col gap-[30px] text-center xl:text-left">
+          {/* <TabsContent value="certificates" className="w-full ">
+            {/* <div className="flex flex-col gap-[30px] text-center xl:text-left">
               <h3 className="text-4xl font-bold ">{certificates.title}</h3>
               <p className="max-w-[600px] text-white/60 mx-auto xl:mx-0">{certificates.description}</p>
               <ScrollArea className="h-[400px]">
@@ -351,15 +357,15 @@ const Resume = () => {
                       <h3 className="text-xl max-w-[260px] min-h-[60px] text-center lg:text-left">{item.position}</h3>
                       <div className="flex items-center gap-3">
                         {/* dot */}
-                        <span className="w-[6px] h-[6px] rounded-full bg-accent"></span>
+                        {/* <span className="w-[6px] h-[6px] rounded-full bg-accent"></span>
                         <p className="text-white/60">{item.company}</p>
                       </div>
                     </li>
                   })}
-                </ul>
-              </ScrollArea>
+                </ul> */}
+              {/* </ScrollArea>
             </div>
-          </TabsContent>
+          </TabsContent> */}
         </div>
       </Tabs>
     </div>

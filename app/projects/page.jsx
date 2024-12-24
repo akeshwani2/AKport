@@ -6,28 +6,30 @@ import Link from "next/link";
 const projects = [
   {
     num: "01",
-    title: "CNN for Brain Tumor Detection & Segmentation",
-    description: "This project uses convolutional neural networks (CNNs) to detect and segment brain tumors through MRI scans using deep learning techniques.",
-    href: "https://ak-cnn.vercel.app/"
+    title: "Lyra",
+    description: "Lyra is an innovative platform that enhances productivity and simplifies workflows through smart automation and intuitive tools. Secured $5,000 in seed funding, and currently holds 100+ active users.",
+    href: "https://lyra.services"
   },
   {
     num: "02",
-    title: "Breast Cancer Prediction Model",
-    description: "This project implements a machine learning model to predict whether a breast tumor is malignant or benign based on various features extracted from medical images using logistic regression.",
-    href: "https://docs.google.com/document/d/1ZnOqoBX--tSGoFDoJ93XW3hpVt0krFvL7_lmujfNcQA/edit?usp=sharing"
+    title: "AK Notch",
+    description: "This is a sleek and intuitive macOS utility that provides a convenient drag-and-drop tray for quick file handling/storing, AirDrop integration, and includes settings to suit your workflow.",
+    href: "https://github.com/akeshwani2/AK-Notch"
   },
   {
     num: "03",
-    title: "Nosh (Work in Progress)",
-    description: "Nosh is a dynamic restaurant reservation platform designed to help users find seating at their favorite restaurants whenever they need it.",
-    href: "https://github.com/akeshwani2/nosh"
+    title: "CNN for Brain Tumor Detection",
+    description: "This project uses convolutional neural networks (CNNs) to detect and segment brain tumors through MRI scans using deep learning techniques.",
+    href: "https://ak-cnn.vercel.app/"
   },
+  
   {
     num: "04",
-    title: "Old Portfolio",
-    description: "Check out another one of my portfolios that I had made previously using React.",
-    href: "https://arhaankeshwaniportfolio.netlify.app/"
+    title: "Breast Cancer Prediction Model",
+    description: "This project uses logistic regression to predict whether a breast tumor is malignant or benign based on various features extracted from medical images.",
+    href: "https://docs.google.com/document/d/1ZnOqoBX--tSGoFDoJ93XW3hpVt0krFvL7_lmujfNcQA/edit?usp=sharing"
   },
+
 ];
 
 import { motion } from "framer-motion";
